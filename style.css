@@ -1,0 +1,63 @@
+@keyframes TitleIntro{
+	0%{transform: scale(0.0);}
+	50%{transform: scale(0.5);}
+	100%{transform: scale(1.0);}
+}
+
+Enlarge:hover{
+	transform: scale(1.1);
+	transition: transform 0.3s ease;
+
+
+}
+
+.Enlarge{
+	a{
+		text-decoration: none;
+		color: black;
+	}
+}
+#Description:hover{
+			
+	border-width:1px ;
+	border-style: dotted;
+	display: inline-block;			
+}
+
+.container{
+	display: inline-flex;
+}
+
+#nav_bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: whitesmoke;
+
+}
+
+.nav-link{
+	background-color: yellowgreen;
+	gap: 10rem;
+}
+
+.nav-link:hover{
+	color: darkred;
+	
+	display: block;
+	background: lightgoldenrodyellow;
+}
+
+#Title{
+	animation-name: TitleIntro;
+	animation-duration: 1.5s;
+	background-color: lightgoldenrodyellow;
+	color: darkred;
+}
+
+#contact{
+	border-style: solid;
+	padding: 5px;
+
+}
+
